@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    position: fixed;
+    top: 0;
+}
+.button{
+    background-color: orange;
+    border-radius: 5px;
+    border: orange;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 8%;
+    height: 40px;
+}
+.backg{
+    align-items: center;
+    margin-left: 70px;
+}
+.tick{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.buy{
+    width: 600px;
+    height: 40px;
+    background-color: orange;
+    color: blue;
+}
+.sp{
+    width: 600px;
+    height: 40px;
+    background-color: white;
+    color: blue;
+}
+.date{
+    background-image: linear-gradient(yellow, blue);
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+}
+.one{
+    margin-top: 10px;
+    
+    margin-left: 4.5%;
+}
+.my{
+    position: absolute;
+    margin-left: 53%;
+    margin-top: -22%;
+}
+.star{
+    animation: star;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes star{
+    from{
+        transform:rotate3d(0, 1, 0)
+    }
+    to{
+        transform :(0, 0, 1)
+    }
+}
